@@ -89,6 +89,7 @@ legend {
 
 .submit:hover {
     background: #1e6fa3;
+    transform: scale(1.02);
 }
 
 /* ADDRESS SECTION */
