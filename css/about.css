@@ -14,8 +14,11 @@ img {
     height: auto;
 }
 header {
-    background-color: #0b6623;
+    background-color: lightgreen;
     padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -26,7 +29,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
 }
@@ -34,6 +37,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     transform: scale(1.08);
+    color: blue;
 
 }
 main {
@@ -79,8 +83,8 @@ iframe {
     border-radius: 8px;
 }
 footer {
-    background-color: green;
-    color: white;
+    background-color: lightgreen;
+    color: black;
     padding: 20px;
     margin-top: 40px;
 }
@@ -91,12 +95,16 @@ footer article {
     align-items: center;
     gap: 15px;
     text-align: center;
+    
 }
 
 .social-links a {
-    color: white;
+    color: black;
     font-size: 18px;
     margin: 0 8px;
+}
+.social-links a:hover{
+    color: blue;
 }
 @media (max-width: 768px) {
     .col-md-6 {
