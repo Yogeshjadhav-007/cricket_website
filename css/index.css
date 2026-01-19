@@ -6,6 +6,10 @@
 .p_heading{
     padding: 50px;
 }
+.p_heading::first-letter{
+    color: black;
+    font-size: 20px;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -57,9 +61,14 @@ h1 {
     font-size: 36px;
     margin-bottom: 15px;
 }
-
+h1:hover{
+    color: green;
+}
 h2 {
     margin: 15px 0;
+}
+h2:hover{
+    color: green;
 }
 picture {
     display: flex;

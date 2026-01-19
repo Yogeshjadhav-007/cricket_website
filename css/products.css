@@ -88,6 +88,10 @@ h3 {
 h2{
     text-decoration: underline;
 }
+h2:hover{
+    color: green;
+    font-size: 30px;
+}
 h4 {
     color: green;
     margin-top: 5px;
