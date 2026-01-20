@@ -134,7 +134,8 @@ footer article {
 
 @media (max-width: 480px) {
     picture div {
-        width: 100%;
+        width: 250px;
+    
     }
 
     section h2 {

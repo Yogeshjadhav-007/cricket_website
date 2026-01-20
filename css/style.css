@@ -16,12 +16,6 @@ picture{
     justify-content: center; 
     align-items: center;  
 }
-.img_cric{
-    height: 200px;
-    width: 110px;
-    padding-left: 10px;
-    box-shadow: 7px 7px 8px grey;
-}
 .img_cric:hover{
     transform: scale(1.05);
 }
@@ -43,6 +37,10 @@ h2{
 .img_bats{
     height: 180px;
     width: 200px;
+    flex-wrap: wrap;
+    display: block;
+    margin: 0 auto;
+    
 }
 h4{
     text-align: center;
